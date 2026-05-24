@@ -1,0 +1,8 @@
+{
+  "name": "Zambui Gift Gallery",
+  "description": "A premium modern luxury gift shop website with glassmorphism aesthetics, located in Chalisgaon, Maharashtra, India. Spotlighting elegant designer cups, toys, statues, and festival collections.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

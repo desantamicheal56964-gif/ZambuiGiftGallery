@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400..700;1,400..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-serif: "Playfair Display", Georgia, ui-serif, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom Scrollbar Styles for premium glass look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050508;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 99px;
+  border: 2px solid #050508;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(34, 211, 238, 0.3);
+}
+
+/* Overriding font structures for bold beautiful headings */
+h1, h2, h3, h4, th {
+  font-family: var(--font-display), sans-serif;
+}
